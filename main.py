@@ -6,7 +6,7 @@ import config
 TOKEN = 'THi5IsDuMMyaCCesSTOK3n00.Cl2FMQ.ThIsi5DUMMyAcc3s5ToKen0000'
 
 # 接続に必要なオブジェクトを生成
-client = discord.Client(intens=discord.Intents.all())
+client = discord.Client(intents=discord.Intents.all())
 
 # 起動時に動作する処理
 @client.event
